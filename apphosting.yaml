@@ -18,7 +18,7 @@ env:
       - BUILD
       - RUNTIME
   - variable: MY_SECRET
-    secret: mySecretRef
+    value: mySecretRef
   - variable: ENV_VAR
     value: "This is a public environment variable."
     availability:
